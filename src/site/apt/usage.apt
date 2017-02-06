@@ -1,0 +1,36 @@
+ ------
+ Usage
+ ------
+ Shannon Carey
+ ------
+ 2017-02-05
+ ------
+
+~~ NOTE: For help with the syntax of this file, see:
+~~ http://maven.apache.org/doxia/references/apt-format.html
+
+Usage
+
+ Add the plugin to the <<<\<reporting\>>>> section:
+
++-----+
+<project>
+  ...
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>com.nnoncarey.sha.maven.plugins</groupId>
+        <artifactId>folder-report-maven-plugin</artifactId>
+        <version>...</version>
+        <configuration>
+          <sourceDirectory>src/my-report-source</sourceDirectory>
+          <name>my-report</name>
+          <displayName>My Report</displayName>
+          <description>A description of my report</description>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
+  ...
+</project>
++-----+

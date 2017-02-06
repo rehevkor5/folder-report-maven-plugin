@@ -1,0 +1,33 @@
+ ------
+ Introduction
+ ------
+ Shannon Carey
+ ------
+ 2017-02-05
+ ------
+
+~~ NOTE: For help with the syntax of this file, see:
+~~ http://maven.apache.org/doxia/references/apt-format.html
+
+Folder Report Maven Plugin
+
+  This plugin copies a given folder into the Maven site, and adds a report linking to the index HTML file in that
+  folder.
+
+* Goals Overview
+
+  General information about the goals.
+
+  * {{{./folder-report-mojo.html}folder-report:folder-report}} The report goal which does the work.
+
+* Usage
+
+  General instructions on how to use the Plugin Name can be found on the {{{./usage.html}usage page}}. Some more
+  specific use cases are described in the examples given below.
+
+~~  If you feel like the plugin is missing a feature or has a defect, you can fill a feature request or bug report in our
+~~  {{{./issue-tracking.html}issue tracker}}. When creating a new issue, please provide a comprehensive description of your
+~~  concern. Especially for fixing bugs it is crucial that the developers can reproduce your problem. For this reason,
+~~  entire debug logs, POMs or most preferably little demo projects attached to the issue are very much appreciated.
+~~  Of course, patches are welcome, too. Contributors can check out the project from our
+~~  {{{./source-repository.html}source repository}}.

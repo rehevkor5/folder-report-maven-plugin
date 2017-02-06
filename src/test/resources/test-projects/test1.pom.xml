@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.nnoncarey.sha.maven.plugins.folder-report.tests</groupId>
+    <artifactId>test1</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>folder-report test1</name>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.nnoncarey.sha.maven.plugins</groupId>
+                <artifactId>folder-report-maven-plugin</artifactId>
+                <configuration>
+                    <sourceDirectory>src/test/resources/report-source-folder</sourceDirectory>
+                    <outputDirectory>target/test-harness/test1</outputDirectory>
+                    <name>my-report</name>
+                    <displayName>My Report</displayName>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
